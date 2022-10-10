@@ -44,7 +44,7 @@ type message struct {
 	File      string `json:"file,omitempty"`
 	Func      string `json:"func,omitempty"`
 	Message   string `json:"message,omitempty"`
-	Data      logrus.Fields
+	Data      logrus.Fields `json:"data,omitempty"`
 	Level     string `json:"level,omitempty"`
 }
 
